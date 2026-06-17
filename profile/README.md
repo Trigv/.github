@@ -49,18 +49,21 @@ curl -sS -X POST "https://api.trigv.com/api/v1/events" \
   }'
 ```
 
-[Create a free account](https://app.trigv.com/register) · [API reference](https://trigv.com/docs/events) · [Examples](https://github.com/Trigv/trigv/tree/main/examples)
+[Create a free account](https://app.trigv.com/register) · [API reference](https://trigv.com/docs/events) · [Integration guides](https://trigv.com/docs/learn)
 
 ---
 
-## Repositories
+## Examples
 
-| Repo | What it is |
-|------|------------|
-| [**platform**](https://github.com/Trigv/platform) | Laravel API, billing, dashboard (`api.trigv.com` + `app.trigv.com`) |
-| [**mobile**](https://github.com/Trigv/mobile) | Flutter app — iOS & Android push feed |
-| [**trig-html**](https://github.com/Trigv/trig-html) | Marketing site + public docs ([trigv.com](https://trigv.com)) |
-| [**trigv**](https://github.com/Trigv/trigv) | Shared examples, curl snippets, integration samples |
+Public copy-paste samples will be listed here as we publish them.
+
+| Example | Status |
+|---------|--------|
+| curl | [Docs](https://trigv.com/docs/learn/curl) |
+| GitHub Actions | Coming soon |
+| Laravel | Coming soon |
+| Python | Coming soon |
+| n8n | Coming soon |
 
 ---
 

@@ -24,9 +24,16 @@ This is **not** the same mechanism as a personal profile README (`username/usern
 
 Logos in `assets/` are referenced from `profile/README.md` via `raw.githubusercontent.com` URLs (required for org profile rendering).
 
-## Related repos
+## Public profile content
+
+Do **not** list private application repos on `profile/README.md`. Link to [trigv.com/docs](https://trigv.com/docs) instead.
+
+Future public example repos (e.g. `Trigv/examples`) can be linked from the **Examples** section when they exist.
+
+## Related repos (internal)
 
 | Repo | Role |
 |------|------|
-| [`Trigv/trigv`](https://github.com/Trigv/trigv) | Shared examples & snippets (not the org profile) |
 | [`Trigv/platform`](https://github.com/Trigv/platform) | Application code + internal `_docs/` |
+| [`Trigv/mobile`](https://github.com/Trigv/mobile) | Flutter apps (private) |
+| [`Trigv/trig-html`](https://github.com/Trigv/trig-html) | Marketing + public docs (private) |

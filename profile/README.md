@@ -50,7 +50,7 @@ curl -sS -X POST "https://api.trigv.com/api/v1/events" \
   }'
 ```
 
-[Create a free account](https://app.trigv.com/register) · [API reference](https://trigv.com/docs/events) · [Integration guides](https://trigv.com/docs/learn)
+[Start your 7-day trial](https://trigv.com) · [API reference](https://trigv.com/docs/events) · [Integration guides](https://trigv.com/docs/learn)
 
 ### GitHub Actions
 

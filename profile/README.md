@@ -8,7 +8,7 @@
 
 ### Realtime events. Instant alerts.
 
-Capture events from your code, cron jobs, and agents — get push notifications on your phone in seconds.
+Send real-time push notifications from your backend, scripts, cron jobs, CI/CD workflows, webhooks, and AI agents to iPhone and Android.
 
 **Your notification history lives on your device. We never see it.**
 
@@ -25,13 +25,13 @@ Capture events from your code, cron jobs, and agents — get push notifications 
 
 ## What is Trigv?
 
-Trigv is a **notification-first** event platform for developers. Send a JSON payload (or a curl one-liner) from your backend, CI, or automation — subscribers on a channel get an instant mobile push. Event **content** stays on-device; the server stores **metadata only**.
+Trigv is a **developer notification platform** for sending real-time push alerts from backend applications, scripts, cron jobs, CI/CD pipelines, webhooks, and AI agents to iPhone and Android. Send a JSON payload (or a curl one-liner) from your stack; subscribers on a channel get an instant mobile push. Event **content** stays on-device; the server stores **metadata only**.
 
 | | |
 |---|---|
-| **Sweet spot** | Fast mobile push from any script, cron, or CI — metadata on the server, content on your phone |
+| **Sweet spot** | Backend alerts and monitoring from scripts, cron, CI/CD, and webhooks. Metadata on the server, content on your phone |
 | **Setup goal** | Register → API key → curl → notification in **under 5 minutes** |
-| **Privacy** | Title, body, and feed history are **on your phone** — not on our servers |
+| **Privacy** | Title, body, and feed history are **on your phone**, not on our servers |
 
 ---
 
@@ -46,7 +46,8 @@ curl -sS -X POST "https://api.trigv.com/api/v1/events" \
     "channel": "general",
     "title": "Deploy finished",
     "description": "Build #42 succeeded in 38s",
-    "level": "success"
+    "level": "success",
+    "url": "https://example.com/deployments/42"
   }'
 ```
 
@@ -68,6 +69,20 @@ Add [`TRIGV_API_KEY`](https://trigv.com/docs/learn/api-keys) as a repository sec
 ```
 
 [GitHub Marketplace](https://github.com/marketplace/actions/trigv) · [Actions guide](https://trigv.com/docs/learn/github-actions) · [trigv-github-action](https://github.com/Trigv/trigv-github-action)
+
+---
+
+## Webhooks
+
+Connect external services without changing your application code. Create an inbound webhook in the [Trigv dashboard](https://app.trigv.com), copy the generated URL, paste it into your provider, and choose which events to send. Trigv verifies signatures where supported and delivers them as mobile push notifications.
+
+Supported providers include **GitHub**, **Stripe**, **Vercel**, **Railway**, **Creem**, **Supabase**, **Sentry**, **Laravel Cloud**, **Freemius**, and **Generic JSON** (plus others in the dashboard).
+
+1. Create a webhook in Trigv and pick a provider
+2. Copy the webhook URL
+3. Paste it into the provider's webhook settings
+4. Select the events you care about in the provider
+5. Receive push notifications on iPhone and Android
 
 ---
 
@@ -95,19 +110,20 @@ Official clients for [`POST /v1/events`](https://trigv.com/docs/events). Each re
 | Example | Link |
 |---------|------|
 | curl | [Docs](https://trigv.com/docs/learn/curl) |
+| Webhooks | [Dashboard](https://app.trigv.com) |
 | GitHub Actions | [Marketplace](https://github.com/marketplace/actions/trigv) · [Repo](https://github.com/Trigv/trigv-github-action) |
 | SDKs (above) | See **SDKs & developer tools** |
-| n8n | Coming soon |
 
 ---
 
 ## Use cases
 
-- **Deploy & CI** — `deploy.completed`, `build.failed`
-- **Payments** — `sale.completed`, `subscription.cancelled`
-- **Cron & scripts** — backup finished, job stalled
-- **AI agents** — workflow step done, human approval needed
-- **Security** — login from new IP, rate limit hit
+- **Deploy & CI**: `deploy.completed`, `build.failed`
+- **Payments**: `sale.completed`, `subscription.cancelled`
+- **Cron & scripts**: backup finished, job stalled
+- **Webhooks & monitoring**: Stripe charges, Sentry issues, uptime alerts
+- **AI agents**: workflow step done, human approval needed
+- **Security**: login from new IP, rate limit hit
 
 ---
 

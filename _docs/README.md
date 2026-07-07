@@ -30,6 +30,12 @@ Do **not** list private application repos on `profile/README.md`. Link to [trigv
 
 Future public example repos (e.g. `Trigv/examples`) can be linked from the **Examples** section when they exist. SDK repos are listed on `profile/README.md` under **SDKs & developer tools**.
 
+## Recommended GitHub organisation topics
+
+Set these on the **Trigv** organisation profile in GitHub (Settings → Profile). Not shown on the public README.
+
+`push-notifications` · `developer-tools` · `webhooks` · `ci-cd` · `monitoring` · `alerts` · `devops` · `api` · `mcp` · `ai-agents`
+
 ## Related repos (internal)
 
 | Repo | Role |

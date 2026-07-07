@@ -88,17 +88,17 @@ Supported providers include **GitHub**, **Stripe**, **Vercel**, **Railway**, **C
 
 ## SDKs & developer tools
 
-Official clients for [`POST /v1/events`](https://trigv.com/docs/events). Each repo includes README, examples, and tests.
+Official clients for [`POST /v1/events`](https://trigv.com/docs/events). All packages are published on public registries (SDKs **1.0.0**, CLI and MCP **0.1.0**). Each repo includes README, examples, and tests.
 
 | Language / tool | Repository | Install |
 |-----------------|------------|---------|
-| Node.js / TypeScript | [trigv-node](https://github.com/Trigv/trigv-node) | `npm install @trigv/sdk` |
-| Python | [trigv-python](https://github.com/Trigv/trigv-python) | `pip install trigv` |
-| PHP | [trigv-php](https://github.com/Trigv/trigv-php) | `composer require trigv/trigv` |
-| Go | [trigv-go](https://github.com/trigv/trigv-go) | `go get github.com/trigv/trigv-go` |
-| Ruby | [trigv-ruby](https://github.com/Trigv/trigv-ruby) | `gem install trigv` |
-| CLI | [trigv-cli](https://github.com/Trigv/trigv-cli) | `npm install -g @trigv/cli` |
-| MCP (AI agents) | [trigv-mcp](https://github.com/Trigv/trigv-mcp) | `npm install -g @trigv/mcp` |
+| Node.js / TypeScript | [trigv-node](https://github.com/Trigv/trigv-node) | [`npm install @trigv/sdk`](https://www.npmjs.com/package/@trigv/sdk) |
+| Python | [trigv-python](https://github.com/Trigv/trigv-python) | [`pip install trigv`](https://pypi.org/project/trigv/) |
+| PHP | [trigv-php](https://github.com/Trigv/trigv-php) | [`composer require trigv/trigv`](https://packagist.org/packages/trigv/trigv) |
+| Go | [trigv-go](https://github.com/Trigv/trigv-go) | [`go get github.com/trigv/trigv-go@v1.0.0`](https://pkg.go.dev/github.com/trigv/trigv-go@v1.0.0) |
+| Ruby | [trigv-ruby](https://github.com/Trigv/trigv-ruby) | [`gem install trigv`](https://rubygems.org/gems/trigv) |
+| CLI | [trigv-cli](https://github.com/Trigv/trigv-cli) | [`npm install -g @trigv/cli`](https://www.npmjs.com/package/@trigv/cli) |
+| MCP (AI agents) | [trigv-mcp](https://github.com/Trigv/trigv-mcp) | [`npm install -g @trigv/mcp`](https://www.npmjs.com/package/@trigv/mcp) |
 | GitHub Actions | [trigv-github-action](https://github.com/Trigv/trigv-github-action) | `uses: Trigv/trigv-github-action@v1.1.0` |
 
 [Integration guides](https://trigv.com/docs/learn) · [OpenAPI spec](https://api.trigv.com/openapi.yaml)

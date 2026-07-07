@@ -28,7 +28,7 @@ Logos in `assets/` are referenced from `profile/README.md` via `raw.githubuserco
 
 Do **not** list private application repos on `profile/README.md`. Link to [trigv.com/docs](https://trigv.com/docs) instead.
 
-Future public example repos (e.g. `Trigv/examples`) can be linked from the **Examples** section when they exist. SDK repos are listed on `profile/README.md` under **SDKs & developer tools**.
+Future public example repos (e.g. `Trigv/examples`) can be linked from the **Examples** section when they exist. SDK repos are listed on `profile/README.md` under **SDKs & developer tools** (install commands link to live registry pages as of 2026-07-08).
 
 ## Recommended GitHub organisation topics
 

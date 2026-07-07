@@ -59,7 +59,7 @@ Add [`TRIGV_API_KEY`](https://trigv.com/docs/learn/api-keys) as a repository sec
 ```yaml
 - name: Notify Trigv on failure
   if: failure()
-  uses: Trigv/trigv-github-action@v1.0.1
+  uses: Trigv/trigv-github-action@v1.1.0
   with:
     api-key: ${{ secrets.TRIGV_API_KEY }}
     title: Workflow failed
@@ -67,18 +67,36 @@ Add [`TRIGV_API_KEY`](https://trigv.com/docs/learn/api-keys) as a repository sec
     event-type: ci.failed
 ```
 
-[GitHub Marketplace](https://github.com/marketplace/actions/trigv) · [Actions guide](https://trigv.com/docs/learn/github-actions)
+[GitHub Marketplace](https://github.com/marketplace/actions/trigv) · [Actions guide](https://trigv.com/docs/learn/github-actions) · [trigv-github-action](https://github.com/Trigv/trigv-github-action)
+
+---
+
+## SDKs & developer tools
+
+Official clients for [`POST /v1/events`](https://trigv.com/docs/events). Each repo includes README, examples, and tests.
+
+| Language / tool | Repository | Install |
+|-----------------|------------|---------|
+| Node.js / TypeScript | [trigv-node](https://github.com/Trigv/trigv-node) | `npm install @trigv/sdk` |
+| Python | [trigv-python](https://github.com/Trigv/trigv-python) | `pip install trigv` |
+| PHP | [trigv-php](https://github.com/Trigv/trigv-php) | `composer require trigv/trigv` |
+| Go | [trigv-go](https://github.com/trigv/trigv-go) | `go get github.com/trigv/trigv-go` |
+| Ruby | [trigv-ruby](https://github.com/Trigv/trigv-ruby) | `gem install trigv` |
+| CLI | [trigv-cli](https://github.com/Trigv/trigv-cli) | `npm install -g @trigv/cli` |
+| MCP (AI agents) | [trigv-mcp](https://github.com/Trigv/trigv-mcp) | `npm install -g @trigv/mcp` |
+| GitHub Actions | [trigv-github-action](https://github.com/Trigv/trigv-github-action) | `uses: Trigv/trigv-github-action@v1.1.0` |
+
+[Integration guides](https://trigv.com/docs/learn) · [OpenAPI spec](https://api.trigv.com/openapi.yaml)
 
 ---
 
 ## Examples
 
-| Example | Status |
-|---------|--------|
+| Example | Link |
+|---------|------|
 | curl | [Docs](https://trigv.com/docs/learn/curl) |
-| GitHub Actions | [Marketplace](https://github.com/marketplace/actions/trigv) · [Docs](https://trigv.com/docs/learn/github-actions) |
-| Laravel | Coming soon |
-| Python | Coming soon |
+| GitHub Actions | [Marketplace](https://github.com/marketplace/actions/trigv) · [Repo](https://github.com/Trigv/trigv-github-action) |
+| SDKs (above) | See **SDKs & developer tools** |
 | n8n | Coming soon |
 
 ---

@@ -28,7 +28,7 @@ Logos in `assets/` are referenced from `profile/README.md` via `raw.githubuserco
 
 Do **not** list private application repos on `profile/README.md`. Link to [trigv.com/docs](https://trigv.com/docs) instead.
 
-Future public example repos (e.g. `Trigv/examples`) can be linked from the **Examples** section when they exist.
+Future public example repos (e.g. `Trigv/examples`) can be linked from the **Examples** section when they exist. SDK repos are listed on `profile/README.md` under **SDKs & developer tools**.
 
 ## Related repos (internal)
 
@@ -37,3 +37,11 @@ Future public example repos (e.g. `Trigv/examples`) can be linked from the **Exa
 | [`Trigv/platform`](https://github.com/Trigv/platform) | Application code + internal `_docs/` |
 | [`Trigv/mobile`](https://github.com/Trigv/mobile) | Flutter apps (private) |
 | [`Trigv/trig-html`](https://github.com/Trigv/trig-html) | Marketing + public docs (private) |
+| [`Trigv/trigv-node`](https://github.com/Trigv/trigv-node) | Node.js / TypeScript SDK (`@trigv/sdk`) |
+| [`Trigv/trigv-python`](https://github.com/Trigv/trigv-python) | Python SDK |
+| [`Trigv/trigv-php`](https://github.com/Trigv/trigv-php) | PHP SDK |
+| [`Trigv/trigv-go`](https://github.com/Trigv/trigv-go) | Go SDK |
+| [`Trigv/trigv-ruby`](https://github.com/Trigv/trigv-ruby) | Ruby SDK |
+| [`Trigv/trigv-cli`](https://github.com/Trigv/trigv-cli) | CLI (`@trigv/cli`) |
+| [`Trigv/trigv-mcp`](https://github.com/Trigv/trigv-mcp) | MCP server (`@trigv/mcp`) |
+| [`Trigv/trigv-github-action`](https://github.com/Trigv/trigv-github-action) | GitHub Action |
